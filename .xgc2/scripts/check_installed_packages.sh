@@ -1,16 +1,18 @@
 #!/usr/bin/env bash
 set -eo pipefail
 
-source /opt/ros/noetic/setup.bash
+source /opt/ros/jazzy/setup.bash
 set -u
 
-dpkg -s ros-noetic-xgc2-go2-description >/dev/null
-package_path="$(rospack find go2_description)"
-test "${package_path}" = /opt/ros/noetic/share/go2_description
+dpkg -s ros-jazzy-xgc2-go2-description >/dev/null
+package_prefix="$(ros2 pkg prefix go2_description)"
+test "${package_prefix}" = /opt/ros/jazzy
+package_path="${package_prefix}/share/go2_description"
 test -f "${package_path}/meshes/base.dae"
 test -f "${package_path}/meshes/hip.dae"
 test -f "${package_path}/urdf/go2_visual.urdf"
 test -f "${package_path}/ASSET_SHA256SUMS"
+test -f /opt/ros/jazzy/share/ament_index/resource_index/packages/go2_description
 
 (
   cd "${package_path}"
