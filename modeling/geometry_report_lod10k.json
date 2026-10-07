@@ -1,0 +1,5973 @@
+{
+  "connected_source_region_reports": {
+    "meshes/base.dae": [
+      {
+        "bounds_m": [
+          [
+            -0.12799961864948273,
+            -0.09747391939163208,
+            -0.05699552595615387
+          ],
+          [
+            0.33190885186195374,
+            0.09687849879264832,
+            0.0888221487402916
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 280188,
+            "output_triangles": 1456
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 280188,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.00025094300508499146,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 0.006355740561106882
+        },
+        "requested_triangles": 1472,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.001651465892791748,
+            "mean_distance_m": 0.00019937946359566185,
+            "p95_distance_m": 0.0006372831121552736,
+            "sample_count": 2186
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.01850063167512417,
+            "mean_distance_m": 0.00020794479523743686,
+            "p95_distance_m": 0.0006181414995808154,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.12799790501594543,
+            -0.09722297638654709,
+            -0.05699998885393143
+          ],
+          [
+            0.33195799589157104,
+            0.09677696973085403,
+            0.08883398026227951
+          ]
+        ],
+        "source_component": "base_source_region_00",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 0.006359021116855498
+          },
+          "repair_max_bounds_change_m": 1.0460615158081055e-05,
+          "repaired_triangles": 280188,
+          "source_boundary_edges": 3,
+          "source_nonmanifold_edges": 2,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 51207,
+        "triangles": 1456
+      },
+      {
+        "bounds_m": [
+          [
+            -0.12794120609760284,
+            -0.06212491914629936,
+            -0.07660544663667679
+          ],
+          [
+            -0.0900750607252121,
+            0.06178556755185127,
+            -0.056999970227479935
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 942,
+            "output_triangles": 150
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 942,
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.0001470223069190979,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 4.354730584813874e-05
+        },
+        "requested_triangles": 153,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.00018647368415258825,
+            "mean_distance_m": 3.792101005175164e-05,
+            "p95_distance_m": 0.0001326677433098666,
+            "sample_count": 227
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.00026325188810005784,
+            "mean_distance_m": 4.5138708160870195e-05,
+            "p95_distance_m": 0.0001377396751195192,
+            "sample_count": 1415
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.12799599766731262,
+            -0.06227194145321846,
+            -0.07660800963640213
+          ],
+          [
+            -0.09002094715833664,
+            0.061824981123209,
+            -0.056999970227479935
+          ]
+        ],
+        "source_component": "base_source_region_01",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 4.383779333331367e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 942,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 942,
+        "triangles": 150
+      },
+      {
+        "bounds_m": [
+          [
+            0.08960548043251038,
+            -0.02815208211541176,
+            -0.05903322622179985
+          ],
+          [
+            0.24135486781597137,
+            0.027654042467474937,
+            -0.03837303817272186
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 15308,
+            "output_triangles": 176
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 15308,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.00012392736971378326,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 3.1847693229873166e-05
+        },
+        "requested_triangles": 178,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0010474813170731068,
+            "mean_distance_m": 0.0001411939988159708,
+            "p95_distance_m": 0.0005785642715636641,
+            "sample_count": 266
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0020293444395065308,
+            "mean_distance_m": 0.00019899974095490572,
+            "p95_distance_m": 0.0006087859335821119,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.08960199356079102,
+            -0.02822194993495941,
+            -0.05899994820356369
+          ],
+          [
+            0.24140389263629913,
+            0.02777796983718872,
+            -0.03829997032880783
+          ]
+        ],
+        "source_component": "base_source_region_02",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 3.213818918848224e-05
+          },
+          "repair_max_bounds_change_m": 2.8252601623535156e-05,
+          "repaired_triangles": 15308,
+          "source_boundary_edges": 9,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 3001,
+        "triangles": 176
+      },
+      {
+        "bounds_m": [
+          [
+            0.21974223852157593,
+            -0.044798094779253006,
+            -0.056670285761356354
+          ],
+          [
+            0.3301527500152588,
+            0.04422753304243088,
+            -0.022549042478203773
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 20136,
+            "output_triangles": 200
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 20136,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.0004190932959318161,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 7.689352126457234e-05
+        },
+        "requested_triangles": 203,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0008016246720217168,
+            "mean_distance_m": 0.00016386188175860126,
+            "p95_distance_m": 0.00046490005915984496,
+            "sample_count": 302
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0013919947668910027,
+            "mean_distance_m": 0.0002499896751127745,
+            "p95_distance_m": 0.0006918973871506749,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.21951599419116974,
+            -0.0447160005569458,
+            -0.056741949170827866
+          ],
+          [
+            0.3302040100097656,
+            0.044270988553762436,
+            -0.022129949182271957
+          ]
+        ],
+        "source_component": "base_source_region_03",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 7.737174777699476e-05
+          },
+          "repair_max_bounds_change_m": 0.0002551525831222534,
+          "repaired_triangles": 20136,
+          "source_boundary_edges": 4,
+          "source_nonmanifold_edges": 2,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 4516,
+        "triangles": 200
+      },
+      {
+        "bounds_m": [
+          [
+            0.08237329870462418,
+            -0.06637061387300491,
+            -0.09615433216094971
+          ],
+          [
+            0.1285635530948639,
+            0.06593898683786392,
+            -0.056999970227479935
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 1656,
+            "output_triangles": 196
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 1656,
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 5.631148815155029e-05,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 9.89549743528606e-05
+        },
+        "requested_triangles": 199,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.00011309916590107605,
+            "mean_distance_m": 2.3374610357837273e-05,
+            "p95_distance_m": 6.49834873911459e-05,
+            "sample_count": 296
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.00014280817413236946,
+            "mean_distance_m": 2.902733028757624e-05,
+            "p95_distance_m": 6.74705170240486e-05,
+            "sample_count": 2486
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.08231698721647263,
+            -0.06642595678567886,
+            -0.09615898877382278
+          ],
+          [
+            0.128602996468544,
+            0.06598197668790817,
+            -0.056999970227479935
+          ]
+        ],
+        "source_component": "base_source_region_04",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 9.930046776095505e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 1656,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 1656,
+        "triangles": 196
+      },
+      {
+        "bounds_m": [
+          [
+            0.32626399397850037,
+            -0.005353325046598911,
+            0.03798012435436249
+          ],
+          [
+            0.3265640139579773,
+            0.004948075860738754,
+            0.04799121990799904
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 156,
+            "output_triangles": 12
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 156,
+        "loss": "Thin sensor recesses are simplified; source position, bounds and material palette remain.",
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.00018608570098876953,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 7.287004185248709e-09
+        },
+        "requested_triangles": 13,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0003664832329377532,
+            "mean_distance_m": 0.00013638638847623952,
+            "p95_distance_m": 0.00025050709082279364,
+            "sample_count": 20
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0005301901837810874,
+            "mean_distance_m": 0.00012999485217471177,
+            "p95_distance_m": 0.0003337098241900091,
+            "sample_count": 628
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.32626399397850037,
+            -0.005237999837845564,
+            0.03799998015165329
+          ],
+          [
+            0.3265640139579773,
+            0.004761990159749985,
+            0.047999970614910126
+          ]
+        ],
+        "source_component": "base_source_region_05",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": true,
+        "source_surface_repair": {
+          "loss": "Thin sensor recesses are simplified; source position, bounds and material palette remain.",
+          "method": "source_vertex_convex_skin_of_individual_thin_sensor_cover",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 2.345730724477117e-08
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 156,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 110,
+          "voxel_size_m": null
+        },
+        "source_triangles": 468,
+        "triangles": 12
+      },
+      {
+        "bounds_m": [
+          [
+            0.3225639760494232,
+            -0.006682689301669598,
+            0.035660773515701294
+          ],
+          [
+            0.3270663917064667,
+            0.006990440189838409,
+            0.050120770931243896
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 876,
+            "output_triangles": 20
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 876,
+        "loss": "Thin sensor recesses are simplified; source position, bounds and material palette remain.",
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.0005552908405661583,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 6.320363183931477e-07
+        },
+        "requested_triangles": 21,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.002487480640411377,
+            "mean_distance_m": 0.000489084378781271,
+            "p95_distance_m": 0.001600324886385351,
+            "sample_count": 32
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0021573263220489025,
+            "mean_distance_m": 0.0006609393047728271,
+            "p95_distance_m": 0.0020000040531158447,
+            "sample_count": 2695
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.3225640058517456,
+            -0.007237980142235756,
+            0.03602397069334984
+          ],
+          [
+            0.32706400752067566,
+            0.006761960219591856,
+            0.04997599124908447
+          ]
+        ],
+        "source_component": "base_source_region_06",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": true,
+        "source_surface_repair": {
+          "loss": "Thin sensor recesses are simplified; source position, bounds and material palette remain.",
+          "method": "source_vertex_convex_skin_of_individual_thin_sensor_cover",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 6.893904497632756e-07
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 876,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 36,
+          "voxel_size_m": null
+        },
+        "source_triangles": 1820,
+        "triangles": 20
+      },
+      {
+        "bounds_m": [
+          [
+            0.325764000415802,
+            -0.008337410166859627,
+            -0.001315268687903881
+          ],
+          [
+            0.32676398754119873,
+            0.007291460409760475,
+            0.01535690389573574
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 148,
+            "output_triangles": 16
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 148,
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.00047352956607937813,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 6.943057506703099e-08
+        },
+        "requested_triangles": 18,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0004982352256774902,
+            "mean_distance_m": 0.000315574829493506,
+            "p95_distance_m": 0.00046751112677156925,
+            "sample_count": 26
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.000886897963937372,
+            "mean_distance_m": 0.00037786749760217376,
+            "p95_distance_m": 0.0007274353614775464,
+            "sample_count": 224
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.325764000415802,
+            -0.00821095984429121,
+            -0.0010139900259673595
+          ],
+          [
+            0.32676398754119873,
+            0.007764989975839853,
+            0.015013989992439747
+          ]
+        ],
+        "source_component": "base_source_region_07",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 2.0084022114263042e-07
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 148,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 148,
+        "triangles": 16
+      },
+      {
+        "bounds_m": [
+          [
+            0.25225529074668884,
+            -0.04234236106276512,
+            -0.09682783484458923
+          ],
+          [
+            0.3295952081680298,
+            -0.015299580059945583,
+            -0.03746800124645233
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 27788,
+            "output_triangles": 84
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 27788,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.00023899227380752563,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 4.248517565012359e-06
+        },
+        "requested_triangles": 85,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0016544114332646132,
+            "mean_distance_m": 0.0005409122748736284,
+            "p95_distance_m": 0.0013465850206557661,
+            "sample_count": 128
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0032717983704060316,
+            "mean_distance_m": 0.0006768225037864133,
+            "p95_distance_m": 0.0018253498827107246,
+            "sample_count": 1120
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.2523309886455536,
+            -0.042160969227552414,
+            -0.09683901071548462
+          ],
+          [
+            0.3294230103492737,
+            -0.015310980379581451,
+            -0.037229008972644806
+          ]
+        ],
+        "source_component": "base_source_region_08",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 6.116655335515764e-06
+          },
+          "repair_max_bounds_change_m": 0.00010547041893005371,
+          "repaired_triangles": 27788,
+          "source_boundary_edges": 3,
+          "source_nonmanifold_edges": 18,
+          "voxel_size_m": 0.0007
+        },
+        "source_triangles": 750,
+        "triangles": 84
+      },
+      {
+        "bounds_m": [
+          [
+            0.24820049107074738,
+            -0.03969280794262886,
+            -0.07395388931035995
+          ],
+          [
+            0.32944801449775696,
+            0.04091822728514671,
+            -0.02820761688053608
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 2414,
+            "output_triangles": 134
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 2414,
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.0024821721017360687,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 6.077661376835408e-06
+        },
+        "requested_triangles": 136,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0021200980991125107,
+            "mean_distance_m": 0.0006235331891547055,
+            "p95_distance_m": 0.0017608669586479664,
+            "sample_count": 201
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.00571129284799099,
+            "mean_distance_m": 0.0009454152950693526,
+            "p95_distance_m": 0.0027625969145447004,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.2478010058403015,
+            -0.04217498004436493,
+            -0.07536298781633377
+          ],
+          [
+            0.3302040100097656,
+            0.04172898083925247,
+            -0.0279459897428751
+          ]
+        ],
+        "source_component": "base_source_region_09",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 1.2890664029740692e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 2414,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 2414,
+        "triangles": 134
+      },
+      {
+        "bounds_m": [
+          [
+            0.25208401679992676,
+            0.014853520318865776,
+            -0.09586992114782333
+          ],
+          [
+            0.32840168476104736,
+            0.04172394052147865,
+            -0.03746521845459938
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 28584,
+            "output_triangles": 82
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 28584,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.0010213255882263184,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 4.0661224574023436e-06
+        },
+        "requested_triangles": 84,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0023244894109666348,
+            "mean_distance_m": 0.0005958734221421764,
+            "p95_distance_m": 0.0013344785664230585,
+            "sample_count": 125
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0026999912224709988,
+            "mean_distance_m": 0.0006834850650208915,
+            "p95_distance_m": 0.0018287597631569952,
+            "sample_count": 1114
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.2523309886455536,
+            0.014864989556372166,
+            -0.09683901071548462
+          ],
+          [
+            0.3294230103492737,
+            0.04171497002243996,
+            -0.03722900152206421
+          ]
+        ],
+        "source_component": "base_source_region_10",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 6.119810734701338e-06
+          },
+          "repair_max_bounds_change_m": 0.00010713934898376465,
+          "repaired_triangles": 28584,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 16,
+          "voxel_size_m": 0.0007
+        },
+        "source_triangles": 746,
+        "triangles": 82
+      },
+      {
+        "bounds_m": [
+          [
+            0.2538372576236725,
+            -0.03611757606267929,
+            -0.08462102711200714
+          ],
+          [
+            0.32346540689468384,
+            0.03475997596979141,
+            -0.039854373782873154
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 10016,
+            "output_triangles": 136
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 10016,
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "max_extent_change_m": 0.0013367533683776855,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 8.299553166561206e-05
+        },
+        "requested_triangles": 138,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.002301463158801198,
+            "mean_distance_m": 0.00043344758502304075,
+            "p95_distance_m": 0.0012329305172897875,
+            "sample_count": 206
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.002574280370026827,
+            "mean_distance_m": 0.00029017143205025303,
+            "p95_distance_m": 0.0009137412445852529,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            0.25517401099205017,
+            -0.03522292897105217,
+            -0.08460795134305954
+          ],
+          [
+            0.32446300983428955,
+            0.03477698937058449,
+            -0.03943299874663353
+          ]
+        ],
+        "source_component": "base_source_region_11",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 8.568839870394587e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 10016,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 10016,
+        "triangles": 136
+      }
+    ],
+    "meshes/calf.dae": [
+      {
+        "bounds_m": [
+          [
+            -0.02581576630473137,
+            -0.01970655471086502,
+            -0.23511555790901184
+          ],
+          [
+            0.018709585070610046,
+            0.019643200561404228,
+            -0.19744594395160675
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 7104,
+            "output_triangles": 82
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 7104,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "max_extent_change_m": 0.0004483461380004883,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 2.941521537928408e-05
+        },
+        "requested_triangles": 83,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0012824895093217492,
+            "mean_distance_m": 0.0005348264026506513,
+            "p95_distance_m": 0.0010206718929111956,
+            "sample_count": 125
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0014539314433932304,
+            "mean_distance_m": 0.00044301804225689996,
+            "p95_distance_m": 0.0009635075286496422,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.02593196928501129,
+            -0.019608909264206886,
+            -0.23556390404701233
+          ],
+          [
+            0.01899394951760769,
+            0.020013030618429184,
+            -0.19752289354801178
+          ]
+        ],
+        "source_component": "calf_source_region_00",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 3.0580832644951985e-05
+          },
+          "repair_max_bounds_change_m": 0.00011102855205535889,
+          "repaired_triangles": 7104,
+          "source_boundary_edges": 29,
+          "source_nonmanifold_edges": 3,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 2034,
+        "triangles": 82
+      },
+      {
+        "bounds_m": [
+          [
+            -0.01991443522274494,
+            -0.01661684922873974,
+            -0.21153518557548523
+          ],
+          [
+            0.0326397567987442,
+            0.016630416736006737,
+            0.03121313266456127
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 26872,
+            "output_triangles": 276
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 26872,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "max_extent_change_m": 0.00030381977558135986,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 0.00010959740220678356
+        },
+        "requested_triangles": 279,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0012774710776284337,
+            "mean_distance_m": 0.00022992807195088005,
+            "p95_distance_m": 0.0006112084956839681,
+            "sample_count": 416
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0020778649486601353,
+            "mean_distance_m": 0.00022934650083072464,
+            "p95_distance_m": 0.0006344944180455058,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.019803959876298904,
+            -0.016828980296850204,
+            -0.2118390053510666
+          ],
+          [
+            0.032435979694128036,
+            0.016846980899572372,
+            0.031088940799236298
+          ]
+        ],
+        "source_component": "calf_source_region_01",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 0.00011076579401993987
+          },
+          "repair_max_bounds_change_m": 0.0002168603241443634,
+          "repaired_triangles": 26872,
+          "source_boundary_edges": 3,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 4071,
+        "triangles": 276
+      },
+      {
+        "bounds_m": [
+          [
+            -0.01894048973917961,
+            -0.018863486126065254,
+            -0.22094303369522095
+          ],
+          [
+            0.026372158899903297,
+            0.018475081771612167,
+            -0.17729324102401733
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 2398,
+            "output_triangles": 86
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 2398,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "max_extent_change_m": 0.0003324989229440689,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 2.4442019473565797e-05
+        },
+        "requested_triangles": 88,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0007080110372044146,
+            "mean_distance_m": 0.0002159565763411014,
+            "p95_distance_m": 0.00047525241097901016,
+            "sample_count": 131
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0016360015142709017,
+            "mean_distance_m": 0.0001880682960419051,
+            "p95_distance_m": 0.0004994739894755179,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.018607990816235542,
+            -0.018643919378519058,
+            -0.22074399888515472
+          ],
+          [
+            0.02615395002067089,
+            0.01870202086865902,
+            -0.1774349957704544
+          ]
+        ],
+        "source_component": "calf_source_region_02",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 2.5086813287554103e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 2398,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 2398,
+        "triangles": 86
+      }
+    ],
+    "meshes/calf_mirror.dae": [
+      {
+        "bounds_m": [
+          [
+            -0.025869470089673996,
+            -0.020177528262138367,
+            -0.23489481210708618
+          ],
+          [
+            0.018103189766407013,
+            0.01932060904800892,
+            -0.19766676425933838
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 7104,
+            "output_triangles": 82
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 7104,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "max_extent_change_m": 0.000890759751200676,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 2.9417354801071955e-05
+        },
+        "requested_triangles": 83,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.001298667280934751,
+            "mean_distance_m": 0.0005565929955919273,
+            "p95_distance_m": 0.0009965648525394498,
+            "sample_count": 125
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0015990871470421553,
+            "mean_distance_m": 0.0004438054478259422,
+            "p95_distance_m": 0.0009426895179785788,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.02593196928501129,
+            -0.020012950524687767,
+            -0.23556390404701233
+          ],
+          [
+            0.01899394951760769,
+            0.019608989357948303,
+            -0.19752289354801178
+          ]
+        ],
+        "source_component": "calf_mirror_source_region_00",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 3.058129193469676e-05
+          },
+          "repair_max_bounds_change_m": 0.00011102855205535889,
+          "repaired_triangles": 7104,
+          "source_boundary_edges": 30,
+          "source_nonmanifold_edges": 3,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 2033,
+        "triangles": 82
+      },
+      {
+        "bounds_m": [
+          [
+            -0.019489796832203865,
+            -0.016727443784475327,
+            -0.21173463761806488
+          ],
+          [
+            0.03194859251379967,
+            0.016798196360468864,
+            0.031231101602315903
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 26872,
+            "output_triangles": 276
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 26872,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "max_extent_change_m": 0.00048738718032836914,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 0.00010968951754094143
+        },
+        "requested_triangles": 279,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0014631865778937936,
+            "mean_distance_m": 0.00022934037020268998,
+            "p95_distance_m": 0.0006130087276687846,
+            "sample_count": 416
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.002194800414144993,
+            "mean_distance_m": 0.0002716881821118401,
+            "p95_distance_m": 0.0007775297184707593,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.019803959876298904,
+            -0.01684696041047573,
+            -0.2118390053510666
+          ],
+          [
+            0.032435979694128036,
+            0.016829000785946846,
+            0.031088940799236298
+          ]
+        ],
+        "source_component": "calf_mirror_source_region_01",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 0.00011076930484212684
+          },
+          "repair_max_bounds_change_m": 0.0002168715000152588,
+          "repaired_triangles": 26872,
+          "source_boundary_edges": 3,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 4071,
+        "triangles": 276
+      },
+      {
+        "bounds_m": [
+          [
+            -0.01894042082130909,
+            -0.018475009128451347,
+            -0.22094303369522095
+          ],
+          [
+            0.026372483000159264,
+            0.018863530829548836,
+            -0.17729324102401733
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 2398,
+            "output_triangles": 86
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 2398,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "max_extent_change_m": 0.00033243000507354736,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 2.4427434373919255e-05
+        },
+        "requested_triangles": 88,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0007734790560789406,
+            "mean_distance_m": 0.00021715591511124572,
+            "p95_distance_m": 0.0004950283619109541,
+            "sample_count": 131
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0016359954606741667,
+            "mean_distance_m": 0.00018880155788432754,
+            "p95_distance_m": 0.0005055470042861996,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.018607990816235542,
+            -0.018701959401369095,
+            -0.22074399888515472
+          ],
+          [
+            0.02615395002067089,
+            0.018643980845808983,
+            -0.1774349957704544
+          ]
+        ],
+        "source_component": "calf_mirror_source_region_02",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 2.508683008602679e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 2398,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 2398,
+        "triangles": 86
+      }
+    ],
+    "meshes/foot.dae": [
+      {
+        "bounds_m": [
+          [
+            -0.02584988623857498,
+            -0.020024700090289116,
+            -0.022611966356635094
+          ],
+          [
+            0.019265776500105858,
+            0.020034071058034897,
+            0.01591665670275688
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 7192,
+            "output_triangles": 216
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 7192,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_fbc365fc3facc314"
+        ],
+        "max_extent_change_m": 0.00030302442610263824,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 3.0497249240516815e-05
+        },
+        "requested_triangles": 220,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0010175051866099238,
+            "mean_distance_m": 0.0002883972045943955,
+            "p95_distance_m": 0.0006250393053051084,
+            "sample_count": 326
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0011336944298818707,
+            "mean_distance_m": 0.00033206972618669774,
+            "p95_distance_m": 0.0008416238386416804,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.026029979810118675,
+            -0.019775979220867157,
+            -0.022914990782737732
+          ],
+          [
+            0.019277939572930336,
+            0.01983099989593029,
+            0.015876000747084618
+          ]
+        ],
+        "source_component": "foot_source_region_00",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 3.107586760494522e-05
+          },
+          "repair_max_bounds_change_m": 0.00013358145952224731,
+          "repaired_triangles": 7192,
+          "source_boundary_edges": 4,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 4404,
+        "triangles": 216
+      }
+    ],
+    "meshes/hip.dae": [
+      {
+        "bounds_m": [
+          [
+            -0.05685799941420555,
+            0.010317581705749035,
+            -0.04763263091444969
+          ],
+          [
+            0.04846196994185448,
+            0.03751695901155472,
+            0.04803597927093506
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 23944,
+            "output_triangles": 94
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 5,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 23944,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.0006633400917053223,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 0.00017008588426840887
+        },
+        "requested_triangles": 95,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0011760108172893524,
+            "mean_distance_m": 0.0002832750021204313,
+            "p95_distance_m": 0.0009594706527423114,
+            "sample_count": 143
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0015426966128870845,
+            "mean_distance_m": 0.0004615877072521689,
+            "p95_distance_m": 0.0011020903941243885,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.05685799941420555,
+            0.010316950269043446,
+            -0.048295971006155014
+          ],
+          [
+            0.04846196994185448,
+            0.03751695901155472,
+            0.04803597927093506
+          ]
+        ],
+        "source_component": "hip_source_region_00",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 0.00017194481403311063
+          },
+          "repair_max_bounds_change_m": 4.6331435441970825e-05,
+          "repaired_triangles": 23944,
+          "source_boundary_edges": 3,
+          "source_nonmanifold_edges": 1,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 2736,
+        "triangles": 94
+      },
+      {
+        "bounds_m": [
+          [
+            -0.06129626929759979,
+            -0.037041258066892624,
+            -0.04817553609609604
+          ],
+          [
+            0.010183990001678467,
+            0.01946597918868065,
+            0.04909896105527878
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 29088,
+            "output_triangles": 138
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 7,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 29088,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.001216445118188858,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 6.066004493643362e-05
+        },
+        "requested_triangles": 140,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.004570968449115753,
+            "mean_distance_m": 0.0008401265387640352,
+            "p95_distance_m": 0.0020926244324073195,
+            "sample_count": 203
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.005780722945928574,
+            "mean_distance_m": 0.0011510901872937135,
+            "p95_distance_m": 0.003790727490559217,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.06131595000624657,
+            -0.03808397054672241,
+            -0.0493919812142849
+          ],
+          [
+            0.010183990001678467,
+            0.01946597918868065,
+            0.04909896105527878
+          ]
+        ],
+        "source_component": "hip_source_region_01",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 6.934616788449928e-05
+          },
+          "repair_max_bounds_change_m": 1.5031546354293823e-05,
+          "repaired_triangles": 29088,
+          "source_boundary_edges": 61,
+          "source_nonmanifold_edges": 2,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 16021,
+        "triangles": 138
+      },
+      {
+        "bounds_m": [
+          [
+            -0.04806596040725708,
+            -0.023582998663187027,
+            -0.04639697074890137
+          ],
+          [
+            0.048433948308229446,
+            0.01729654148221016,
+            0.04610300064086914
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 38904,
+            "output_triangles": 130
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 4,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 38904,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 9.995140135288239e-05,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 0.00018341969495960786
+        },
+        "requested_triangles": 133,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0031662106048315763,
+            "mean_distance_m": 0.0009190181142236188,
+            "p95_distance_m": 0.0021057459525763984,
+            "sample_count": 195
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.006815726403146982,
+            "mean_distance_m": 0.0011039162297591361,
+            "p95_distance_m": 0.0030130049912258966,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.04806596040725708,
+            -0.02368295006453991,
+            -0.04639697074890137
+          ],
+          [
+            0.048433948308229446,
+            0.017317000776529312,
+            0.04610300064086914
+          ]
+        ],
+        "source_component": "hip_source_region_02",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 0.0001852465668968809
+          },
+          "repair_max_bounds_change_m": 2.1424144506454468e-05,
+          "repaired_triangles": 38904,
+          "source_boundary_edges": 28,
+          "source_nonmanifold_edges": 10,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 15626,
+        "triangles": 130
+      },
+      {
+        "bounds_m": [
+          [
+            -0.06231600046157837,
+            -0.029690980911254883,
+            -0.028616484254598618
+          ],
+          [
+            -0.0613558292388916,
+            0.02816847153007984,
+            0.02879623882472515
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 284,
+            "output_triangles": 36
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 1,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 284,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.0003305058926343918,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 1.3140590210033072e-06
+        },
+        "requested_triangles": 37,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0005398431094363332,
+            "mean_distance_m": 0.0002949646958053823,
+            "p95_distance_m": 0.0004891520366072655,
+            "sample_count": 56
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0008656071149744093,
+            "mean_distance_m": 0.0002517736769624594,
+            "p95_distance_m": 0.0005771830037701875,
+            "sample_count": 428
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.06231600046157837,
+            -0.029690980911254883,
+            -0.02894699014723301
+          ],
+          [
+            -0.06131595000624657,
+            0.02830898016691208,
+            0.029052970930933952
+          ]
+        ],
+        "source_component": "hip_source_region_03",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 2.6084529803210854e-06
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 284,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 284,
+        "triangles": 36
+      },
+      {
+        "bounds_m": [
+          [
+            -0.06961596012115479,
+            -0.026478415355086327,
+            -0.025937970727682114
+          ],
+          [
+            -0.06261599063873291,
+            0.025300970301032066,
+            0.026043949648737907
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 2088,
+            "output_triangles": 34
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 14,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 2088,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.00020556524395942688,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 1.3686834115326599e-05
+        },
+        "requested_triangles": 36,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.002016685903072357,
+            "mean_distance_m": 0.000574505468253881,
+            "p95_distance_m": 0.001602055178955197,
+            "sample_count": 53
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.002318882616236806,
+            "mean_distance_m": 0.0006850030988089817,
+            "p95_distance_m": 0.0017788386379834263,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.06961596012115479,
+            -0.026683980599045753,
+            -0.025937970727682114
+          ],
+          [
+            -0.06261599063873291,
+            0.025300970301032066,
+            0.026043949648737907
+          ]
+        ],
+        "source_component": "hip_source_region_04",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 1.4071988882531031e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 2088,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 2088,
+        "triangles": 34
+      }
+    ],
+    "meshes/thigh.dae": [
+      {
+        "bounds_m": [
+          [
+            -0.04777001589536667,
+            -0.05679500102996826,
+            -0.04731348529458046
+          ],
+          [
+            0.04837421700358391,
+            -0.04849499091506004,
+            -0.00047022703802213073
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 4810,
+            "output_triangles": 98
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 51,
+        "input_repaired_triangles": 4810,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.0003155134618282318,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 1.108803577665185e-05
+        },
+        "requested_triangles": 100,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0011967079481109977,
+            "mean_distance_m": 0.0002280129417143959,
+            "p95_distance_m": 0.0008385028224438428,
+            "sample_count": 149
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.00189881247933954,
+            "mean_distance_m": 0.0002892360819032819,
+            "p95_distance_m": 0.000920979693182744,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.047988951206207275,
+            -0.05679500102996826,
+            -0.04762899875640869
+          ],
+          [
+            0.04846400022506714,
+            -0.04849497973918915,
+            -0.0003790099872276187
+          ]
+        ],
+        "source_component": "thigh_source_region_00",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 1.1890747504070149e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 4810,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 4810,
+        "triangles": 98
+      },
+      {
+        "bounds_m": [
+          [
+            -0.04839295148849487,
+            -0.021799828857183456,
+            -0.017355969175696373
+          ],
+          [
+            0.04390393942594528,
+            0.01662098988890648,
+            0.05057698115706444
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 2138,
+            "output_triangles": 114
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 7,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 2138,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 8.141621947288513e-06,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 1.6568774297565092e-05
+        },
+        "requested_triangles": 116,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0014610318467020988,
+            "mean_distance_m": 0.0005954962369739505,
+            "p95_distance_m": 0.001186068938113749,
+            "sample_count": 173
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.002404435072094202,
+            "mean_distance_m": 0.0004981842697868709,
+            "p95_distance_m": 0.0012879683636128898,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.04839295148849487,
+            -0.021807970479130745,
+            -0.017355969175696373
+          ],
+          [
+            0.04390393942594528,
+            0.01662098988890648,
+            0.05057698115706444
+          ]
+        ],
+        "source_component": "thigh_source_region_01",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 1.824292776890321e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 2138,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 2138,
+        "triangles": 114
+      },
+      {
+        "bounds_m": [
+          [
+            -0.04780665040016174,
+            -0.05679595470428467,
+            0.0017465482233092189
+          ],
+          [
+            0.04838215559720993,
+            -0.04849594086408615,
+            0.048798274248838425
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 4758,
+            "output_triangles": 98
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 51,
+        "input_repaired_triangles": 4758,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.00018230080604553223,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 1.1144568129080787e-05
+        },
+        "requested_triangles": 100,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0011630869703367352,
+            "mean_distance_m": 0.00022058460089676988,
+            "p95_distance_m": 0.000820613116957247,
+            "sample_count": 149
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.001375488587655127,
+            "mean_distance_m": 0.00027559862064417944,
+            "p95_distance_m": 0.0008650396601296951,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.047988951206207275,
+            -0.056795958429574966,
+            0.0016209400491788983
+          ],
+          [
+            0.04846400022506714,
+            -0.04849594086408615,
+            0.04887096956372261
+          ]
+        ],
+        "source_component": "thigh_source_region_02",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 1.1947241472451192e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 4758,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 4758,
+        "triangles": 98
+      },
+      {
+        "bounds_m": [
+          [
+            -0.045726045966148376,
+            -0.048395998775959015,
+            -0.2273540049791336
+          ],
+          [
+            0.04648697003722191,
+            0.015099947340786457,
+            0.048666585236787796
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 64092,
+            "output_triangles": 398
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 1,
+        "grey_front_cover_vertices_projected_to_source_surface": 142,
+        "input_repaired_triangles": 64092,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.0009710518643260002,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 0.00041658973272869215
+        },
+        "requested_triangles": 403,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0024760207161307335,
+            "mean_distance_m": 0.00039987191040760124,
+            "p95_distance_m": 0.001245477714110166,
+            "sample_count": 599
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.014062544330954552,
+            "mean_distance_m": 0.0007148732617935603,
+            "p95_distance_m": 0.0019428533909376703,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.046012990176677704,
+            -0.048395998775959015,
+            -0.2273540049791336
+          ],
+          [
+            0.04648697003722191,
+            0.016070999205112457,
+            0.04887199029326439
+          ]
+        ],
+        "source_component": "thigh_source_region_03",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 0.00042958307682464743
+          },
+          "repair_max_bounds_change_m": 0.00010052323341369629,
+          "repaired_triangles": 64092,
+          "source_boundary_edges": 147,
+          "source_nonmanifold_edges": 28,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 18341,
+        "triangles": 398
+      }
+    ],
+    "meshes/thigh_mirror.dae": [
+      {
+        "bounds_m": [
+          [
+            -0.04777001589536667,
+            0.04849499091506004,
+            -0.046927548944950104
+          ],
+          [
+            0.048375193029642105,
+            0.05679500102996826,
+            -0.00044599000830203295
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 4810,
+            "output_triangles": 98
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 51,
+        "input_repaired_triangles": 4810,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.0007014311850070953,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 1.1077995927292564e-05
+        },
+        "requested_triangles": 100,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0009513020049780607,
+            "mean_distance_m": 0.00022998222743983833,
+            "p95_distance_m": 0.000826243043411523,
+            "sample_count": 149
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0016409887466579676,
+            "mean_distance_m": 0.00028468553977023054,
+            "p95_distance_m": 0.0008624002279248085,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.047988951206207275,
+            0.04849499091506004,
+            -0.0476289801299572
+          ],
+          [
+            0.04846400022506714,
+            0.05679500848054886,
+            -0.0003789899928960949
+          ]
+        ],
+        "source_component": "thigh_mirror_source_region_00",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 1.1890807624422855e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 4810,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 4810,
+        "triangles": 98
+      },
+      {
+        "bounds_m": [
+          [
+            -0.04839295148849487,
+            -0.01662098988890648,
+            -0.017355969175696373
+          ],
+          [
+            0.04390393942594528,
+            0.021799806505441666,
+            0.05057698115706444
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 2138,
+            "output_triangles": 114
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 7,
+        "grey_front_cover_vertices_projected_to_source_surface": 0,
+        "input_repaired_triangles": 2138,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 8.152797818183899e-06,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 1.657177066198094e-05
+        },
+        "requested_triangles": 116,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0014811757719144225,
+            "mean_distance_m": 0.0005953752990109744,
+            "p95_distance_m": 0.0011860695201903581,
+            "sample_count": 173
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.002404435072094202,
+            "mean_distance_m": 0.0004979250266158412,
+            "p95_distance_m": 0.0012879910296760494,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.04839295148849487,
+            -0.01662098988890648,
+            -0.017355969175696373
+          ],
+          [
+            0.04390393942594528,
+            0.02180795930325985,
+            0.05057698115706444
+          ]
+        ],
+        "source_component": "thigh_mirror_source_region_01",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 1.8242946838184662e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 2138,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 2138,
+        "triangles": 114
+      },
+      {
+        "bounds_m": [
+          [
+            -0.04780665040016174,
+            0.04849594086408615,
+            0.0017461488023400307
+          ],
+          [
+            0.04838833585381508,
+            0.05679595097899437,
+            0.04879829287528992
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 4756,
+            "output_triangles": 98
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 0,
+        "grey_front_cover_vertices_projected_to_source_surface": 51,
+        "input_repaired_triangles": 4756,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.00018230080604553223,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 1.1134769396977292e-05
+        },
+        "requested_triangles": 100,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.0011630922090262175,
+            "mean_distance_m": 0.00022064831207649032,
+            "p95_distance_m": 0.0008936816127970807,
+            "sample_count": 149
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.0015562049811705947,
+            "mean_distance_m": 0.00027246221902438116,
+            "p95_distance_m": 0.0009007022978039451,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.047988951206207275,
+            0.048495929688215256,
+            0.0016209599561989307
+          ],
+          [
+            0.04846400022506714,
+            0.05679595097899437,
+            0.0488709881901741
+          ]
+        ],
+        "source_component": "thigh_mirror_source_region_02",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "method": "inherited_source_surface",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 1.1947253741526867e-05
+          },
+          "repair_max_bounds_change_m": 0.0,
+          "repaired_triangles": 4756,
+          "source_boundary_edges": 0,
+          "source_nonmanifold_edges": 0,
+          "voxel_size_m": null
+        },
+        "source_triangles": 4756,
+        "triangles": 98
+      },
+      {
+        "bounds_m": [
+          [
+            -0.0456773117184639,
+            -0.016060322523117065,
+            -0.2273540049791336
+          ],
+          [
+            0.04609102010726929,
+            0.048395998775959015,
+            0.04864327982068062
+          ]
+        ],
+        "collapse_attempts": [
+          {
+            "input_triangles": 64092,
+            "output_triangles": 398
+          }
+        ],
+        "decorative_logo_faces_recolored_to_body_material": 0,
+        "existing_vertices_constrained_to_source_coordinate_bounds": 1,
+        "grey_front_cover_vertices_projected_to_source_surface": 137,
+        "input_repaired_triangles": 64092,
+        "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "max_extent_change_m": 0.00039594992995262146,
+        "orientation": {
+          "closed": true,
+          "closed_edge_connected_components": 1,
+          "open_edge_connected_components": 0,
+          "orientation": "closed outward positive volume",
+          "positive_signed_volume_m3": 0.00041822306903827045
+        },
+        "requested_triangles": 403,
+        "sampled_surface_error": {
+          "proxy_to_source": {
+            "max_distance_m": 0.00227608741261065,
+            "mean_distance_m": 0.00038737996309761444,
+            "p95_distance_m": 0.0011607339722104373,
+            "sample_count": 599
+          },
+          "sampling": "Uniform deterministic index sample of vertices and polygon centres; not area-uniform or a Hausdorff/clearance proof.",
+          "source_to_proxy": {
+            "max_distance_m": 0.013425088487565517,
+            "mean_distance_m": 0.0006961066433776371,
+            "p95_distance_m": 0.001942917139967903,
+            "sample_count": 3000
+          }
+        },
+        "source_bounds_m": [
+          [
+            -0.046012990176677704,
+            -0.01607091911137104,
+            -0.2273540049791336
+          ],
+          [
+            0.04648697003722191,
+            0.048395998775959015,
+            0.04887199029326439
+          ]
+        ],
+        "source_component": "thigh_mirror_source_region_03",
+        "source_component_retained": true,
+        "source_cover_convex_skin_reconstruction": false,
+        "source_surface_repair": {
+          "loss": "Micro seams and near-voxel features can round or close; open CAD skin interior cavities may also simplify. Key visible channels require same-camera QA; no cross-region/link union.",
+          "method": "local_voxel_surface_repair_before_semantic_collapse",
+          "orientation": {
+            "closed": true,
+            "closed_edge_connected_components": 1,
+            "open_edge_connected_components": 0,
+            "orientation": "closed outward positive volume",
+            "positive_signed_volume_m3": 0.0004295571113418565
+          },
+          "repair_max_bounds_change_m": 0.00010058283805847168,
+          "repaired_triangles": 64092,
+          "source_boundary_edges": 147,
+          "source_nonmanifold_edges": 29,
+          "voxel_size_m": 0.0015
+        },
+        "source_triangles": 18336,
+        "triangles": 398
+      }
+    ]
+  },
+  "generator": "Blender 5.2.2 LTS",
+  "generator_sha256": "d75c0a85b0d8d88e4d4d6935a5fadb8dc5f5ca592abb69b6f9c7be7912437ebb",
+  "geometry_resources_bytes": 451425,
+  "hard_vehicle_triangle_cap": null,
+  "known_losses": [
+    "Fine source bevels, ridges and curved CAD tessellation are reduced per semantic region.",
+    "Open vendor CAD seams are inherited; only closed components have a positive-volume claim.",
+    "Normals are recalculated coherently with 70-degree hard-edge policy, not exact original corner-normal byte preservation.",
+    "Voxel-repaired skins can round or close details near/below 1.5mm (Go2 front covers 0.7mm); keeping bounds is not proof of full surfaces, apertures or physics clearance.",
+    "Two individual Go2 thin sensor covers use source-vertex convex skins; their small recesses simplify without joining regions or links.",
+    "Go2 low tier omits the decorative white torso wordmark; medium/high keep sampled source material regions.",
+    "The lowest tier uses coarse local silhouettes and material subdivisions; small logos, fastener shapes and ports can deform."
+  ],
+  "material_group_count": 33,
+  "nominal_vehicle_triangle_budget": 10000,
+  "parts": {
+    "FL_calf": {
+      "bounds_m": [
+        [
+          -0.0258157663,
+          -0.0197065547,
+          -0.235115558
+        ],
+        [
+          0.0326397568,
+          0.0196432006,
+          0.0312131327
+        ]
+      ],
+      "bytes": 36467,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0199144352,
+              -0.0166168492,
+              -0.211535186
+            ],
+            [
+              0.0326397568,
+              0.0166304167,
+              0.0312131327
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00010959740184687902,
+          "triangles": 276
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0189404897,
+              -0.0188634861,
+              -0.220943034
+            ],
+            [
+              0.0263721589,
+              0.0184750818,
+              -0.177293241
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 2.4442019538836096e-05,
+          "triangles": 86
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0258157663,
+              -0.0197065547,
+              -0.235115558
+            ],
+            [
+              0.0187095851,
+              0.0196432006,
+              -0.197445944
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 2.9415219823548364e-05,
+          "triangles": 82
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 450,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 0,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "FL_calf",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 450,
+      "resource": "meshes/lod10k/calf_dae.dae",
+      "semantic_category": "calf",
+      "sha256": "cbf220774da8b555c5e4a7da47b59e04a0f541d3b414bc16da8de4196ca54068",
+      "source_component_count": 3,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.02593197114765644,
+            -0.019608914852142334,
+            -0.23556390404701233
+          ],
+          [
+            0.032435979694128036,
+            0.020013025030493736,
+            0.031088940799236298
+          ]
+        ],
+        "clean_triangles": 8501,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "original_connected_cad_region_count": 3,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 8602,
+        "removed_source_duplicate_or_degenerate": 80,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "calf_004-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0005000000237487257
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                -0.0008500000112690032
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "FLcalf_0901"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 13,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/calf.dae",
+      "source_sha256": "29872fa1a435b92bc2b395fdfa7f0aee26101db3c494681896bd4ef24ee7883c",
+      "source_visual_uri": "package://go2_description/meshes/calf.dae",
+      "triangles": 444,
+      "validation": {
+        "closed_component_count": 3,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "FL_foot": {
+      "bounds_m": [
+        [
+          -0.0258498862,
+          -0.0200247001,
+          -0.0226119664
+        ],
+        [
+          0.0192657765,
+          0.0200340711,
+          0.0159166567
+        ]
+      ],
+      "bytes": 16605,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0258498862,
+              -0.0200247001,
+              -0.0226119664
+            ],
+            [
+              0.0192657765,
+              0.0200340711,
+              0.0159166567
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 3.049724923636796e-05,
+          "triangles": 216
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 220,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 0,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "FL_foot",
+      "material_groups": 1,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 220,
+      "resource": "meshes/lod10k/foot_dae.dae",
+      "semantic_category": "foot",
+      "sha256": "b240b312db59daddade6385d9c457934a4f08dd31d0281dc32075d790bb93192",
+      "source_component_count": 1,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.026029979810118675,
+            -0.019775977358222008,
+            -0.022914988920092583
+          ],
+          [
+            0.019277941435575485,
+            0.01983100175857544,
+            0.015876000747084618
+          ]
+        ],
+        "clean_triangles": 4404,
+        "material_names": [
+          "qmat_fbc365fc3facc314"
+        ],
+        "original_connected_cad_region_count": 1,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 4404,
+        "removed_source_duplicate_or_degenerate": 0,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "FL_foot_001-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0002500000118743628
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0038999998942017555
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "FL_foot0901"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 0,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/foot.dae",
+      "source_sha256": "ffbd95fd641866ce9bd277aa249b92dafc9148d70131fa2c52709a35ce5b710b",
+      "source_visual_uri": "package://go2_description/meshes/foot.dae",
+      "triangles": 216,
+      "validation": {
+        "closed_component_count": 1,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "FL_hip": {
+      "bounds_m": [
+        [
+          -0.0696159601,
+          -0.0370412581,
+          -0.0481755361
+        ],
+        [
+          0.0484619699,
+          0.037516959,
+          0.0490989611
+        ]
+      ],
+      "bytes": 39443,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0568579994,
+              0.0103175817,
+              -0.0476326309
+            ],
+            [
+              0.0484619699,
+              0.037516959,
+              0.0480359793
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00017008588621589062,
+          "triangles": 94
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0612962693,
+              -0.0370412581,
+              -0.0481755361
+            ],
+            [
+              0.01018399,
+              0.0194659792,
+              0.0490989611
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 6.0660045601613785e-05,
+          "triangles": 138
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0480659604,
+              -0.0235829987,
+              -0.0463969707
+            ],
+            [
+              0.0484339483,
+              0.0172965415,
+              0.0461030006
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00018341969390446502,
+          "triangles": 130
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0623160005,
+              -0.0296909809,
+              -0.0286164843
+            ],
+            [
+              -0.0613558292,
+              0.0281684715,
+              0.0287962388
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.3140540536166992e-06,
+          "triangles": 36
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0696159601,
+              -0.0264784154,
+              -0.0259379707
+            ],
+            [
+              -0.0626159906,
+              0.0253009703,
+              0.0260439496
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.3686828319323461e-05,
+          "triangles": 34
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 441,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 3,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "FL_hip",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 400,
+      "resource": "meshes/lod10k/hip_dae.dae",
+      "semantic_category": "hip",
+      "sha256": "1ff11bd5214be0168e291b737be43f01fbd5fa3e41de5e0a0f596d66e680f8ea",
+      "source_component_count": 5,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.06961596012115479,
+            -0.03808397054672241,
+            -0.0493919812142849
+          ],
+          [
+            0.04846196994185448,
+            0.03751695901155472,
+            0.04909896105527878
+          ]
+        ],
+        "clean_triangles": 36755,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "original_connected_cad_region_count": 5,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 37040,
+        "removed_source_duplicate_or_degenerate": 260,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "hip_008-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "hipFL0831"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 15,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/hip.dae",
+      "source_sha256": "8735e10617afe252cef0844c1d139d15bc6d4c653660d742fea9fe05c2704d8f",
+      "source_visual_uri": "package://go2_description/meshes/hip.dae",
+      "triangles": 432,
+      "validation": {
+        "closed_component_count": 5,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "FL_thigh": {
+      "bounds_m": [
+        [
+          -0.0483929515,
+          -0.0567959547,
+          -0.227354005
+        ],
+        [
+          0.0483821556,
+          0.0166209899,
+          0.0505769812
+        ]
+      ],
+      "bytes": 57436,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0477700159,
+              -0.056795001,
+              -0.0473134853
+            ],
+            [
+              0.048374217,
+              -0.0484949909,
+              -0.000470227038
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.1088043340104175e-05,
+          "triangles": 98
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0483929515,
+              -0.0217998289,
+              -0.0173559692
+            ],
+            [
+              0.0439039394,
+              0.0166209899,
+              0.0505769812
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.656877406278073e-05,
+          "triangles": 114
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0478066504,
+              -0.0567959547,
+              0.00174654822
+            ],
+            [
+              0.0483821556,
+              -0.0484959409,
+              0.0487982742
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.1144564235696645e-05,
+          "triangles": 98
+        },
+        {
+          "bounds_m": [
+            [
+              -0.045726046,
+              -0.0483959988,
+              -0.227354005
+            ],
+            [
+              0.04648697,
+              0.0150999473,
+              0.0486665852
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00041658972205825025,
+          "triangles": 398
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 719,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 4,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "FL_thigh",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 650,
+      "resource": "meshes/lod10k/thigh_dae.dae",
+      "semantic_category": "thigh",
+      "sha256": "96daafc97095a688c289adf9c464bb113d47fd6f8ba987541c736bef764099b3",
+      "source_component_count": 4,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.04839295148849487,
+            -0.056795958429574966,
+            -0.2273540049791336
+          ],
+          [
+            0.04846400022506714,
+            0.01662098988890648,
+            0.05057697743177414
+          ]
+        ],
+        "clean_triangles": 30047,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "original_connected_cad_region_count": 4,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 30134,
+        "removed_source_duplicate_or_degenerate": 78,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "thigh_001-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "thigh_FL0815"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 10,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/thigh.dae",
+      "source_sha256": "a622381ae308897ff143b8bbf02f075457c342b22984205040424a5a983246fa",
+      "source_visual_uri": "package://go2_description/meshes/thigh.dae",
+      "triangles": 708,
+      "validation": {
+        "closed_component_count": 4,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "FR_calf": {
+      "bounds_m": [
+        [
+          -0.0258694701,
+          -0.0201775283,
+          -0.234894812
+        ],
+        [
+          0.0319485925,
+          0.019320609,
+          0.0312311016
+        ]
+      ],
+      "bytes": 35668,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0194897968,
+              -0.0167274438,
+              -0.211734638
+            ],
+            [
+              0.0319485925,
+              0.0167981964,
+              0.0312311016
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00010968951818608679,
+          "triangles": 276
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0189404208,
+              -0.0184750091,
+              -0.220943034
+            ],
+            [
+              0.026372483,
+              0.0188635308,
+              -0.177293241
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 2.4427435672947048e-05,
+          "triangles": 86
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0258694701,
+              -0.0201775283,
+              -0.234894812
+            ],
+            [
+              0.0181031898,
+              0.019320609,
+              -0.197666764
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 2.9417340921436287e-05,
+          "triangles": 82
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 450,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 0,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "FR_calf",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 450,
+      "resource": "meshes/lod10k/calf_mirror_dae.dae",
+      "semantic_category": "calf",
+      "sha256": "f995a4a6ff4ff02a2404a2f80470108e4592327f45da5e2861307807ab0730c2",
+      "source_component_count": 3,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.02593197114765644,
+            -0.020012954249978065,
+            -0.23556390404701233
+          ],
+          [
+            0.032435979694128036,
+            0.019608985632658005,
+            0.031088940799236298
+          ]
+        ],
+        "clean_triangles": 8502,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "original_connected_cad_region_count": 3,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 8602,
+        "removed_source_duplicate_or_degenerate": 80,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "calf_006-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0005000000237487257
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0008500000112690032
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "FRcalf0901"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 12,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/calf_mirror.dae",
+      "source_sha256": "79c66be7ed06760bd5001c067a1fb0ac517f639d8b1a5f89be471903b3f359e1",
+      "source_visual_uri": "package://go2_description/meshes/calf_mirror.dae",
+      "triangles": 444,
+      "validation": {
+        "closed_component_count": 3,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "FR_foot": {
+      "bounds_m": [
+        [
+          -0.0258498862,
+          -0.0200247001,
+          -0.0226119664
+        ],
+        [
+          0.0192657765,
+          0.0200340711,
+          0.0159166567
+        ]
+      ],
+      "bytes": 16605,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0258498862,
+              -0.0200247001,
+              -0.0226119664
+            ],
+            [
+              0.0192657765,
+              0.0200340711,
+              0.0159166567
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 3.049724923636796e-05,
+          "triangles": 216
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 220,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 0,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "FR_foot",
+      "material_groups": 1,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 220,
+      "resource": "meshes/lod10k/foot_dae.dae",
+      "semantic_category": "foot",
+      "sha256": "b240b312db59daddade6385d9c457934a4f08dd31d0281dc32075d790bb93192",
+      "source_component_count": 1,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.026029979810118675,
+            -0.019775977358222008,
+            -0.022914988920092583
+          ],
+          [
+            0.019277941435575485,
+            0.01983100175857544,
+            0.015876000747084618
+          ]
+        ],
+        "clean_triangles": 4404,
+        "material_names": [
+          "qmat_fbc365fc3facc314"
+        ],
+        "original_connected_cad_region_count": 1,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 4404,
+        "removed_source_duplicate_or_degenerate": 0,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "FL_foot_001-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0002500000118743628
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0038999998942017555
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "FL_foot0901"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 0,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/foot.dae",
+      "source_sha256": "ffbd95fd641866ce9bd277aa249b92dafc9148d70131fa2c52709a35ce5b710b",
+      "source_visual_uri": "package://go2_description/meshes/foot.dae",
+      "triangles": 216,
+      "validation": {
+        "closed_component_count": 1,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "FR_hip": {
+      "bounds_m": [
+        [
+          -0.0696159601,
+          -0.0370412581,
+          -0.0481755361
+        ],
+        [
+          0.0484619699,
+          0.037516959,
+          0.0490989611
+        ]
+      ],
+      "bytes": 39443,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0568579994,
+              0.0103175817,
+              -0.0476326309
+            ],
+            [
+              0.0484619699,
+              0.037516959,
+              0.0480359793
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00017008588621589062,
+          "triangles": 94
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0612962693,
+              -0.0370412581,
+              -0.0481755361
+            ],
+            [
+              0.01018399,
+              0.0194659792,
+              0.0490989611
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 6.0660045601613785e-05,
+          "triangles": 138
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0480659604,
+              -0.0235829987,
+              -0.0463969707
+            ],
+            [
+              0.0484339483,
+              0.0172965415,
+              0.0461030006
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00018341969390446502,
+          "triangles": 130
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0623160005,
+              -0.0296909809,
+              -0.0286164843
+            ],
+            [
+              -0.0613558292,
+              0.0281684715,
+              0.0287962388
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.3140540536166992e-06,
+          "triangles": 36
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0696159601,
+              -0.0264784154,
+              -0.0259379707
+            ],
+            [
+              -0.0626159906,
+              0.0253009703,
+              0.0260439496
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.3686828319323461e-05,
+          "triangles": 34
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 441,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 3,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "FR_hip",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 400,
+      "resource": "meshes/lod10k/hip_dae.dae",
+      "semantic_category": "hip",
+      "sha256": "1ff11bd5214be0168e291b737be43f01fbd5fa3e41de5e0a0f596d66e680f8ea",
+      "source_component_count": 5,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.06961596012115479,
+            -0.03808397054672241,
+            -0.0493919812142849
+          ],
+          [
+            0.04846196994185448,
+            0.03751695901155472,
+            0.04909896105527878
+          ]
+        ],
+        "clean_triangles": 36755,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "original_connected_cad_region_count": 5,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 37040,
+        "removed_source_duplicate_or_degenerate": 260,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "hip_008-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "hipFL0831"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 15,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/hip.dae",
+      "source_sha256": "8735e10617afe252cef0844c1d139d15bc6d4c653660d742fea9fe05c2704d8f",
+      "source_visual_uri": "package://go2_description/meshes/hip.dae",
+      "triangles": 432,
+      "validation": {
+        "closed_component_count": 5,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "3.1415 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "FR_thigh": {
+      "bounds_m": [
+        [
+          -0.0483929515,
+          -0.0166209899,
+          -0.227354005
+        ],
+        [
+          0.0483883359,
+          0.056795951,
+          0.0505769812
+        ]
+      ],
+      "bytes": 56658,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0477700159,
+              0.0484949909,
+              -0.0469275489
+            ],
+            [
+              0.048375193,
+              0.056795001,
+              -0.000445990008
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.1077994406809728e-05,
+          "triangles": 98
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0483929515,
+              -0.0166209899,
+              -0.0173559692
+            ],
+            [
+              0.0439039394,
+              0.0217998065,
+              0.0505769812
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.6571771362092172e-05,
+          "triangles": 114
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0478066504,
+              0.0484959409,
+              0.0017461488
+            ],
+            [
+              0.0483883359,
+              0.056795951,
+              0.0487982929
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.1134770215468673e-05,
+          "triangles": 98
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0456773117,
+              -0.0160603225,
+              -0.227354005
+            ],
+            [
+              0.0460910201,
+              0.0483959988,
+              0.0486432798
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.0004182230710639875,
+          "triangles": 398
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 719,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 2,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "FR_thigh",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 650,
+      "resource": "meshes/lod10k/thigh_mirror_dae.dae",
+      "semantic_category": "thigh",
+      "sha256": "fc8d1d32f7e88e3d9310e035d4df31ba75cfe35baf426db80e1c81435d67023f",
+      "source_component_count": 4,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.04839295148849487,
+            -0.01662098988890648,
+            -0.2273540049791336
+          ],
+          [
+            0.04846400022506714,
+            0.05679595097899437,
+            0.050576984882354736
+          ]
+        ],
+        "clean_triangles": 30040,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "original_connected_cad_region_count": 4,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 30126,
+        "removed_source_duplicate_or_degenerate": 73,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "thigh_003-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "thigh_FR0815"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 12,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/thigh_mirror.dae",
+      "source_sha256": "c7bae0b0565c2aa4b7cc15a538d795e9153e0f10c821cc18429e92693172bdc6",
+      "source_visual_uri": "package://go2_description/meshes/thigh_mirror.dae",
+      "triangles": 708,
+      "validation": {
+        "closed_component_count": 4,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "RL_calf": {
+      "bounds_m": [
+        [
+          -0.0258157663,
+          -0.0197065547,
+          -0.235115558
+        ],
+        [
+          0.0326397568,
+          0.0196432006,
+          0.0312131327
+        ]
+      ],
+      "bytes": 36467,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0199144352,
+              -0.0166168492,
+              -0.211535186
+            ],
+            [
+              0.0326397568,
+              0.0166304167,
+              0.0312131327
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00010959740184687902,
+          "triangles": 276
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0189404897,
+              -0.0188634861,
+              -0.220943034
+            ],
+            [
+              0.0263721589,
+              0.0184750818,
+              -0.177293241
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 2.4442019538836096e-05,
+          "triangles": 86
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0258157663,
+              -0.0197065547,
+              -0.235115558
+            ],
+            [
+              0.0187095851,
+              0.0196432006,
+              -0.197445944
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 2.9415219823548364e-05,
+          "triangles": 82
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 450,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 0,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "RL_calf",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 450,
+      "resource": "meshes/lod10k/calf_dae.dae",
+      "semantic_category": "calf",
+      "sha256": "cbf220774da8b555c5e4a7da47b59e04a0f541d3b414bc16da8de4196ca54068",
+      "source_component_count": 3,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.02593197114765644,
+            -0.019608914852142334,
+            -0.23556390404701233
+          ],
+          [
+            0.032435979694128036,
+            0.020013025030493736,
+            0.031088940799236298
+          ]
+        ],
+        "clean_triangles": 8501,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "original_connected_cad_region_count": 3,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 8602,
+        "removed_source_duplicate_or_degenerate": 80,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "calf_004-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0005000000237487257
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                -0.0008500000112690032
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "FLcalf_0901"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 13,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/calf.dae",
+      "source_sha256": "29872fa1a435b92bc2b395fdfa7f0aee26101db3c494681896bd4ef24ee7883c",
+      "source_visual_uri": "package://go2_description/meshes/calf.dae",
+      "triangles": 444,
+      "validation": {
+        "closed_component_count": 3,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "RL_foot": {
+      "bounds_m": [
+        [
+          -0.0258498862,
+          -0.0200247001,
+          -0.0226119664
+        ],
+        [
+          0.0192657765,
+          0.0200340711,
+          0.0159166567
+        ]
+      ],
+      "bytes": 16605,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0258498862,
+              -0.0200247001,
+              -0.0226119664
+            ],
+            [
+              0.0192657765,
+              0.0200340711,
+              0.0159166567
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 3.049724923636796e-05,
+          "triangles": 216
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 220,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 0,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "RL_foot",
+      "material_groups": 1,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 220,
+      "resource": "meshes/lod10k/foot_dae.dae",
+      "semantic_category": "foot",
+      "sha256": "b240b312db59daddade6385d9c457934a4f08dd31d0281dc32075d790bb93192",
+      "source_component_count": 1,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.026029979810118675,
+            -0.019775977358222008,
+            -0.022914988920092583
+          ],
+          [
+            0.019277941435575485,
+            0.01983100175857544,
+            0.015876000747084618
+          ]
+        ],
+        "clean_triangles": 4404,
+        "material_names": [
+          "qmat_fbc365fc3facc314"
+        ],
+        "original_connected_cad_region_count": 1,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 4404,
+        "removed_source_duplicate_or_degenerate": 0,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "FL_foot_001-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0002500000118743628
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0038999998942017555
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "FL_foot0901"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 0,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/foot.dae",
+      "source_sha256": "ffbd95fd641866ce9bd277aa249b92dafc9148d70131fa2c52709a35ce5b710b",
+      "source_visual_uri": "package://go2_description/meshes/foot.dae",
+      "triangles": 216,
+      "validation": {
+        "closed_component_count": 1,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "RL_hip": {
+      "bounds_m": [
+        [
+          -0.0696159601,
+          -0.0370412581,
+          -0.0481755361
+        ],
+        [
+          0.0484619699,
+          0.037516959,
+          0.0490989611
+        ]
+      ],
+      "bytes": 39443,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0568579994,
+              0.0103175817,
+              -0.0476326309
+            ],
+            [
+              0.0484619699,
+              0.037516959,
+              0.0480359793
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00017008588621589062,
+          "triangles": 94
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0612962693,
+              -0.0370412581,
+              -0.0481755361
+            ],
+            [
+              0.01018399,
+              0.0194659792,
+              0.0490989611
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 6.0660045601613785e-05,
+          "triangles": 138
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0480659604,
+              -0.0235829987,
+              -0.0463969707
+            ],
+            [
+              0.0484339483,
+              0.0172965415,
+              0.0461030006
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00018341969390446502,
+          "triangles": 130
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0623160005,
+              -0.0296909809,
+              -0.0286164843
+            ],
+            [
+              -0.0613558292,
+              0.0281684715,
+              0.0287962388
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.3140540536166992e-06,
+          "triangles": 36
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0696159601,
+              -0.0264784154,
+              -0.0259379707
+            ],
+            [
+              -0.0626159906,
+              0.0253009703,
+              0.0260439496
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.3686828319323461e-05,
+          "triangles": 34
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 441,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 3,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "RL_hip",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 400,
+      "resource": "meshes/lod10k/hip_dae.dae",
+      "semantic_category": "hip",
+      "sha256": "1ff11bd5214be0168e291b737be43f01fbd5fa3e41de5e0a0f596d66e680f8ea",
+      "source_component_count": 5,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.06961596012115479,
+            -0.03808397054672241,
+            -0.0493919812142849
+          ],
+          [
+            0.04846196994185448,
+            0.03751695901155472,
+            0.04909896105527878
+          ]
+        ],
+        "clean_triangles": 36755,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "original_connected_cad_region_count": 5,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 37040,
+        "removed_source_duplicate_or_degenerate": 260,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "hip_008-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "hipFL0831"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 15,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/hip.dae",
+      "source_sha256": "8735e10617afe252cef0844c1d139d15bc6d4c653660d742fea9fe05c2704d8f",
+      "source_visual_uri": "package://go2_description/meshes/hip.dae",
+      "triangles": 432,
+      "validation": {
+        "closed_component_count": 5,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 3.1415 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "RL_thigh": {
+      "bounds_m": [
+        [
+          -0.0483929515,
+          -0.0567959547,
+          -0.227354005
+        ],
+        [
+          0.0483821556,
+          0.0166209899,
+          0.0505769812
+        ]
+      ],
+      "bytes": 57436,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0477700159,
+              -0.056795001,
+              -0.0473134853
+            ],
+            [
+              0.048374217,
+              -0.0484949909,
+              -0.000470227038
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.1088043340104175e-05,
+          "triangles": 98
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0483929515,
+              -0.0217998289,
+              -0.0173559692
+            ],
+            [
+              0.0439039394,
+              0.0166209899,
+              0.0505769812
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.656877406278073e-05,
+          "triangles": 114
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0478066504,
+              -0.0567959547,
+              0.00174654822
+            ],
+            [
+              0.0483821556,
+              -0.0484959409,
+              0.0487982742
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.1144564235696645e-05,
+          "triangles": 98
+        },
+        {
+          "bounds_m": [
+            [
+              -0.045726046,
+              -0.0483959988,
+              -0.227354005
+            ],
+            [
+              0.04648697,
+              0.0150999473,
+              0.0486665852
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00041658972205825025,
+          "triangles": 398
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 719,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 4,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "RL_thigh",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 650,
+      "resource": "meshes/lod10k/thigh_dae.dae",
+      "semantic_category": "thigh",
+      "sha256": "96daafc97095a688c289adf9c464bb113d47fd6f8ba987541c736bef764099b3",
+      "source_component_count": 4,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.04839295148849487,
+            -0.056795958429574966,
+            -0.2273540049791336
+          ],
+          [
+            0.04846400022506714,
+            0.01662098988890648,
+            0.05057697743177414
+          ]
+        ],
+        "clean_triangles": 30047,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "original_connected_cad_region_count": 4,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 30134,
+        "removed_source_duplicate_or_degenerate": 78,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "thigh_001-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "thigh_FL0815"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 10,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/thigh.dae",
+      "source_sha256": "a622381ae308897ff143b8bbf02f075457c342b22984205040424a5a983246fa",
+      "source_visual_uri": "package://go2_description/meshes/thigh.dae",
+      "triangles": 708,
+      "validation": {
+        "closed_component_count": 4,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "RR_calf": {
+      "bounds_m": [
+        [
+          -0.0258694701,
+          -0.0201775283,
+          -0.234894812
+        ],
+        [
+          0.0319485925,
+          0.019320609,
+          0.0312311016
+        ]
+      ],
+      "bytes": 35668,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0194897968,
+              -0.0167274438,
+              -0.211734638
+            ],
+            [
+              0.0319485925,
+              0.0167981964,
+              0.0312311016
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00010968951818608679,
+          "triangles": 276
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0189404208,
+              -0.0184750091,
+              -0.220943034
+            ],
+            [
+              0.026372483,
+              0.0188635308,
+              -0.177293241
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 2.4427435672947048e-05,
+          "triangles": 86
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0258694701,
+              -0.0201775283,
+              -0.234894812
+            ],
+            [
+              0.0181031898,
+              0.019320609,
+              -0.197666764
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 2.9417340921436287e-05,
+          "triangles": 82
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 450,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 0,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "RR_calf",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 450,
+      "resource": "meshes/lod10k/calf_mirror_dae.dae",
+      "semantic_category": "calf",
+      "sha256": "f995a4a6ff4ff02a2404a2f80470108e4592327f45da5e2861307807ab0730c2",
+      "source_component_count": 3,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.02593197114765644,
+            -0.020012954249978065,
+            -0.23556390404701233
+          ],
+          [
+            0.032435979694128036,
+            0.019608985632658005,
+            0.031088940799236298
+          ]
+        ],
+        "clean_triangles": 8502,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_fbc365fc3facc314"
+        ],
+        "original_connected_cad_region_count": 3,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 8602,
+        "removed_source_duplicate_or_degenerate": 80,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "calf_006-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0005000000237487257
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0008500000112690032
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "FRcalf0901"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 12,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/calf_mirror.dae",
+      "source_sha256": "79c66be7ed06760bd5001c067a1fb0ac517f639d8b1a5f89be471903b3f359e1",
+      "source_visual_uri": "package://go2_description/meshes/calf_mirror.dae",
+      "triangles": 444,
+      "validation": {
+        "closed_component_count": 3,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "RR_foot": {
+      "bounds_m": [
+        [
+          -0.0258498862,
+          -0.0200247001,
+          -0.0226119664
+        ],
+        [
+          0.0192657765,
+          0.0200340711,
+          0.0159166567
+        ]
+      ],
+      "bytes": 16605,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0258498862,
+              -0.0200247001,
+              -0.0226119664
+            ],
+            [
+              0.0192657765,
+              0.0200340711,
+              0.0159166567
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 3.049724923636796e-05,
+          "triangles": 216
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 220,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 0,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "RR_foot",
+      "material_groups": 1,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 220,
+      "resource": "meshes/lod10k/foot_dae.dae",
+      "semantic_category": "foot",
+      "sha256": "b240b312db59daddade6385d9c457934a4f08dd31d0281dc32075d790bb93192",
+      "source_component_count": 1,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.026029979810118675,
+            -0.019775977358222008,
+            -0.022914988920092583
+          ],
+          [
+            0.019277941435575485,
+            0.01983100175857544,
+            0.015876000747084618
+          ]
+        ],
+        "clean_triangles": 4404,
+        "material_names": [
+          "qmat_fbc365fc3facc314"
+        ],
+        "original_connected_cad_region_count": 1,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 4404,
+        "removed_source_duplicate_or_degenerate": 0,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "FL_foot_001-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0002500000118743628
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0038999998942017555
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "FL_foot0901"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 0,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/foot.dae",
+      "source_sha256": "ffbd95fd641866ce9bd277aa249b92dafc9148d70131fa2c52709a35ce5b710b",
+      "source_visual_uri": "package://go2_description/meshes/foot.dae",
+      "triangles": 216,
+      "validation": {
+        "closed_component_count": 1,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "RR_hip": {
+      "bounds_m": [
+        [
+          -0.0696159601,
+          -0.0370412581,
+          -0.0481755361
+        ],
+        [
+          0.0484619699,
+          0.037516959,
+          0.0490989611
+        ]
+      ],
+      "bytes": 39443,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0568579994,
+              0.0103175817,
+              -0.0476326309
+            ],
+            [
+              0.0484619699,
+              0.037516959,
+              0.0480359793
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00017008588621589062,
+          "triangles": 94
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0612962693,
+              -0.0370412581,
+              -0.0481755361
+            ],
+            [
+              0.01018399,
+              0.0194659792,
+              0.0490989611
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 6.0660045601613785e-05,
+          "triangles": 138
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0480659604,
+              -0.0235829987,
+              -0.0463969707
+            ],
+            [
+              0.0484339483,
+              0.0172965415,
+              0.0461030006
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.00018341969390446502,
+          "triangles": 130
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0623160005,
+              -0.0296909809,
+              -0.0286164843
+            ],
+            [
+              -0.0613558292,
+              0.0281684715,
+              0.0287962388
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.3140540536166992e-06,
+          "triangles": 36
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0696159601,
+              -0.0264784154,
+              -0.0259379707
+            ],
+            [
+              -0.0626159906,
+              0.0253009703,
+              0.0260439496
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.3686828319323461e-05,
+          "triangles": 34
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 441,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 3,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "RR_hip",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 400,
+      "resource": "meshes/lod10k/hip_dae.dae",
+      "semantic_category": "hip",
+      "sha256": "1ff11bd5214be0168e291b737be43f01fbd5fa3e41de5e0a0f596d66e680f8ea",
+      "source_component_count": 5,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.06961596012115479,
+            -0.03808397054672241,
+            -0.0493919812142849
+          ],
+          [
+            0.04846196994185448,
+            0.03751695901155472,
+            0.04909896105527878
+          ]
+        ],
+        "clean_triangles": 36755,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "original_connected_cad_region_count": 5,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 37040,
+        "removed_source_duplicate_or_degenerate": 260,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "hip_008-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "hipFL0831"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 15,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/hip.dae",
+      "source_sha256": "8735e10617afe252cef0844c1d139d15bc6d4c653660d742fea9fe05c2704d8f",
+      "source_visual_uri": "package://go2_description/meshes/hip.dae",
+      "triangles": 432,
+      "validation": {
+        "closed_component_count": 5,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "3.1415 3.1415 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "RR_thigh": {
+      "bounds_m": [
+        [
+          -0.0483929515,
+          -0.0166209899,
+          -0.227354005
+        ],
+        [
+          0.0483883359,
+          0.056795951,
+          0.0505769812
+        ]
+      ],
+      "bytes": 56658,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              -0.0477700159,
+              0.0484949909,
+              -0.0469275489
+            ],
+            [
+              0.048375193,
+              0.056795001,
+              -0.000445990008
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.1077994406809728e-05,
+          "triangles": 98
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0483929515,
+              -0.0166209899,
+              -0.0173559692
+            ],
+            [
+              0.0439039394,
+              0.0217998065,
+              0.0505769812
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.6571771362092172e-05,
+          "triangles": 114
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0478066504,
+              0.0484959409,
+              0.0017461488
+            ],
+            [
+              0.0483883359,
+              0.056795951,
+              0.0487982929
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 1.1134770215468673e-05,
+          "triangles": 98
+        },
+        {
+          "bounds_m": [
+            [
+              -0.0456773117,
+              -0.0160603225,
+              -0.227354005
+            ],
+            [
+              0.0460910201,
+              0.0483959988,
+              0.0486432798
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.0004182230710639875,
+          "triangles": 398
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 719,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 2,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "RR_thigh",
+      "material_groups": 2,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 650,
+      "resource": "meshes/lod10k/thigh_mirror_dae.dae",
+      "semantic_category": "thigh",
+      "sha256": "fc8d1d32f7e88e3d9310e035d4df31ba75cfe35baf426db80e1c81435d67023f",
+      "source_component_count": 4,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.04839295148849487,
+            -0.01662098988890648,
+            -0.2273540049791336
+          ],
+          [
+            0.04846400022506714,
+            0.05679595097899437,
+            0.050576984882354736
+          ]
+        ],
+        "clean_triangles": 30040,
+        "material_names": [
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_ddc4e6410bf0a5b2"
+        ],
+        "original_connected_cad_region_count": 4,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 30126,
+        "removed_source_duplicate_or_degenerate": 73,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "thigh_003-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "thigh_FR0815"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 12,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/thigh_mirror.dae",
+      "source_sha256": "c7bae0b0565c2aa4b7cc15a538d795e9153e0f10c821cc18429e92693172bdc6",
+      "source_visual_uri": "package://go2_description/meshes/thigh_mirror.dae",
+      "triangles": 708,
+      "validation": {
+        "closed_component_count": 4,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    },
+    "base": {
+      "bounds_m": [
+        [
+          -0.127999619,
+          -0.0974739194,
+          -0.0968278348
+        ],
+        [
+          0.331908852,
+          0.0968784988,
+          0.0888221487
+        ]
+      ],
+      "bytes": 209148,
+      "connected_components": [
+        {
+          "bounds_m": [
+            [
+              0.252255291,
+              -0.0423423611,
+              -0.0968278348
+            ],
+            [
+              0.329595208,
+              -0.0152995801,
+              -0.0374680012
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 4.248529573326022e-06,
+          "triangles": 84
+        },
+        {
+          "bounds_m": [
+            [
+              0.248200491,
+              -0.0396928079,
+              -0.0739538893
+            ],
+            [
+              0.329448014,
+              0.0409182273,
+              -0.0282076169
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 6.077650067971848e-06,
+          "triangles": 134
+        },
+        {
+          "bounds_m": [
+            [
+              0.252084017,
+              0.0148535203,
+              -0.0958699211
+            ],
+            [
+              0.328401685,
+              0.0417239405,
+              -0.0374652185
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 4.066118086655916e-06,
+          "triangles": 82
+        },
+        {
+          "bounds_m": [
+            [
+              0.253837258,
+              -0.0361175761,
+              -0.0846210271
+            ],
+            [
+              0.323465407,
+              0.034759976,
+              -0.0398543738
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 8.299549994793085e-05,
+          "triangles": 136
+        },
+        {
+          "bounds_m": [
+            [
+              -0.127999619,
+              -0.0974739194,
+              -0.056995526
+            ],
+            [
+              0.331908852,
+              0.0968784988,
+              0.0888221487
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 0.006355740419638567,
+          "triangles": 1456
+        },
+        {
+          "bounds_m": [
+            [
+              -0.127941206,
+              -0.0621249191,
+              -0.0766054466
+            ],
+            [
+              -0.0900750607,
+              0.0617855676,
+              -0.0569999702
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 4.354731121271902e-05,
+          "triangles": 150
+        },
+        {
+          "bounds_m": [
+            [
+              0.0896054804,
+              -0.0281520821,
+              -0.0590332262
+            ],
+            [
+              0.241354868,
+              0.0276540425,
+              -0.0383730382
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 3.1847704597951946e-05,
+          "triangles": 176
+        },
+        {
+          "bounds_m": [
+            [
+              0.219742239,
+              -0.0447980948,
+              -0.0566702858
+            ],
+            [
+              0.33015275,
+              0.044227533,
+              -0.0225490425
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 7.68935161344053e-05,
+          "triangles": 200
+        },
+        {
+          "bounds_m": [
+            [
+              0.0823732987,
+              -0.0663706139,
+              -0.0961543322
+            ],
+            [
+              0.128563553,
+              0.0659389868,
+              -0.0569999702
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 9.895503768910725e-05,
+          "triangles": 196
+        },
+        {
+          "bounds_m": [
+            [
+              0.326263994,
+              -0.00535332505,
+              0.0379801244
+            ],
+            [
+              0.326564014,
+              0.00494807586,
+              0.0479912199
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 7.286724522214482e-09,
+          "triangles": 12
+        },
+        {
+          "bounds_m": [
+            [
+              0.322563976,
+              -0.0066826893,
+              0.0356607735
+            ],
+            [
+              0.327066392,
+              0.00699044019,
+              0.0501207709
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 6.32028201423984e-07,
+          "triangles": 20
+        },
+        {
+          "bounds_m": [
+            [
+              0.325764,
+              -0.00833741017,
+              -0.00131526869
+            ],
+            [
+              0.326763988,
+              0.00729146041,
+              0.0153569039
+            ]
+          ],
+          "closed": true,
+          "inconsistent_edges": 0,
+          "inward_corner_normals": 0,
+          "raw_signed_volume_m3": 6.943065656626239e-08,
+          "triangles": 16
+        }
+      ],
+      "effective_semantic_region_triangle_budget": 2700,
+      "export_cleanup": {
+        "opposing_smooth_corners_use_geometric_face_normal": 1,
+        "post_collapse_degenerate_triangles_removed": 0,
+        "post_collapse_duplicate_triangles_removed": 0,
+        "zero_smooth_corners_use_geometric_face_normal": 0
+      },
+      "instances": 1,
+      "link": "base",
+      "material_groups": 5,
+      "mesh_scale": "1 1 1",
+      "nominal_mesh_triangle_budget": 2700,
+      "resource": "meshes/lod10k/base_dae.dae",
+      "semantic_category": "body",
+      "sha256": "d75845d6296af517b414c2a966915218b5c13f09ec4c7067383eb1aec11288e3",
+      "source_component_count": 12,
+      "source_coordinate_contract": {
+        "asset_unit_meter": 1.0,
+        "bounds_m": [
+          [
+            -0.12799790501594543,
+            -0.09722297638654709,
+            -0.09683901071548462
+          ],
+          [
+            0.33195799589157104,
+            0.09677696973085403,
+            0.08883398026227951
+          ]
+        ],
+        "clean_triangles": 77683,
+        "material_names": [
+          "qmat_103403739752e509",
+          "qmat_1163a26947310579",
+          "qmat_497d0fc190a55310",
+          "qmat_4b294f1aa1dfaafb",
+          "qmat_e137245c464f31d5"
+        ],
+        "original_connected_cad_region_count": 12,
+        "proxy_surface_policy": "Each source CAD region rebuilt separately.",
+        "raw_triangles": 77928,
+        "removed_source_duplicate_or_degenerate": 196,
+        "scene_transforms_baked_once": true,
+        "source_scene_transforms": [
+          {
+            "geometry": "base_004-mesh",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.6292099758175027e-07,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.6292099758175027e-07,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "node": "base_006"
+          }
+        ],
+        "source_seam_weld_tolerance_m": 1e-06,
+        "source_up_axis": "Z_UP",
+        "source_welded_vertices": 27,
+        "urdf_visual_origin_and_scale_not_baked": true
+      },
+      "source_resource": "meshes/base.dae",
+      "source_sha256": "e52bebbb5c7ff1f6aedee620c9b5b349f6e965360ecc63a9bb743eeff2d0be64",
+      "source_visual_uri": "package://go2_description/meshes/base.dae",
+      "triangles": 2662,
+      "validation": {
+        "closed_component_count": 12,
+        "closed_components_positive_volume": true,
+        "duplicate_triangles": 0,
+        "export_indices_in_range": true,
+        "finite_positions": true,
+        "finite_unit_normals": true,
+        "inherited_open_connected_component_count": 0,
+        "nondegenerate_triangles": true
+      },
+      "visual_index": 0,
+      "visual_origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0"
+      }
+    }
+  },
+  "pending_acceptance": [
+    "Same-camera source/high/medium/low pixel and silhouette QA.",
+    "Actual Lichtblick/RViz/Gazebo loading and default selection."
+  ],
+  "private_io_sha256": "0e451583f90b3b72c170e514a7ffba79edcda1f07bff017a6b35addc3820edb5",
+  "recipe_rationale": [
+    "Different budgets for torso, motor hip covers, long thigh, lower leg/foot and each arm segment.",
+    "Allocate every connected CAD region by surface area and extent, with a minimum region floor; no minimum-area component deletion.",
+    "Repair defective large CAD skins locally at 1.5mm voxel size before bounded semantic collapse; Go2 front slotted covers use 0.7mm. Thin sensor plates are excluded.",
+    "Closed source/repaired skins receive explicit triangles and direct local collapse; planar dissolve is excluded because it broke thin closed skin topology.",
+    "Go2 grey front joint covers get extra semantic budget and source-surface vertex projection; retained hip/thigh vertices stay within source coordinate bounds. This is not box reconstruction or proof of all surface/clearance preservation.",
+    "The low-tier 1500 URI is a nominal target only; joint connections and clean major shells take priority over the revoked hard cap."
+  ],
+  "robot": "go2",
+  "schema_version": 1,
+  "source_assets": {
+    "meshes/base.dae": "e52bebbb5c7ff1f6aedee620c9b5b349f6e965360ecc63a9bb743eeff2d0be64",
+    "meshes/calf.dae": "29872fa1a435b92bc2b395fdfa7f0aee26101db3c494681896bd4ef24ee7883c",
+    "meshes/calf_mirror.dae": "79c66be7ed06760bd5001c067a1fb0ac517f639d8b1a5f89be471903b3f359e1",
+    "meshes/foot.dae": "ffbd95fd641866ce9bd277aa249b92dafc9148d70131fa2c52709a35ce5b710b",
+    "meshes/hip.dae": "8735e10617afe252cef0844c1d139d15bc6d4c653660d742fea9fe05c2704d8f",
+    "meshes/thigh.dae": "a622381ae308897ff143b8bbf02f075457c342b22984205040424a5a983246fa",
+    "meshes/thigh_mirror.dae": "c7bae0b0565c2aa4b7cc15a538d795e9153e0f10c821cc18429e92693172bdc6"
+  },
+  "source_urdf": "urdf/go2_visual.urdf",
+  "source_urdf_sha256": "0ac0476aa9cc928bbd4349ccd7f0e9b117897e1b84c7ef5907d9bf5fe400d6e0",
+  "status": "review_candidate",
+  "textures": [],
+  "units": "metres",
+  "validation": {
+    "all_original_links_and_joints_retained": true,
+    "all_required_visual_links_retained": true,
+    "all_source_connected_regions_retained": true,
+    "all_visual_mesh_instances_counted": true,
+    "no_cross_link_surface_union": true,
+    "non_uri_xml_unchanged": true,
+    "source_meshes_unchanged": true,
+    "source_scene_transforms_baked_once": true,
+    "urdf_visual_origin_and_scale_unchanged": true,
+    "visual_only": true
+  },
+  "variant": "lod10k",
+  "vehicle_triangles": 9862,
+  "visual_urdf": "urdf/go2_visual_lod10k.urdf",
+  "visual_urdf_sha256": "593bd87941ebe46dd01fbb7f03754ee845f165ffc76cecfe0ba3511fc14c60d0"
+}
